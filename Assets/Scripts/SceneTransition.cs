@@ -7,14 +7,18 @@ using UnityEngine.SceneManagement;
 public class SceneTransition : MonoBehaviour
 {
 
-    public string sceneToLoad;
-    public bool playerInsideTrigger;
+    public string goToAisleScene;
+    public string goForwardScene;
+    private bool playerInsideTrigger;
     public GameObject guideText;
     public GameObject guideText2;
     public void Update()
     {
         if(playerInsideTrigger && Input.GetKeyDown(KeyCode.W)){
-            SceneManager.LoadScene(sceneToLoad);;
+            SceneManager.LoadScene(goToAisleScene);
+        }
+        if(playerInsideTrigger && Input.GetKeyDown(KeyCode.A)){
+            SceneManager.LoadScene(goForwardScene);
         }
     }
 
@@ -35,6 +39,8 @@ public class SceneTransition : MonoBehaviour
         else
         {
             playerInsideTrigger = false;
+            guideText.SetActive(false);
+            guideText2.SetActive(false);
         }
     }
 }

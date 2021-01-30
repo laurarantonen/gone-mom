@@ -8,6 +8,7 @@ public class ItemController : MonoBehaviour
     private bool playerNearItem;
     public GameObject interactText;
     private PlayerStatus playerStatus;
+    public int itemNumber;
 
     public void Start()
     {
@@ -30,10 +31,14 @@ public class ItemController : MonoBehaviour
             playerNearItem = true; //if player is near an interactable item
             interactText.SetActive(true); // prompt player with text
         }
+    }
 
-        else
+    public void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("Player") && !other.isTrigger)
         {
-            interactText.SetActive(false);
+            playerNearItem = false; //if player is near an interactable item
+            interactText.SetActive(false); // prompt player with text
         }
     }
 }

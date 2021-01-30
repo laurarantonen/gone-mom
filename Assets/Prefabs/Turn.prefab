@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 6464781606170324677}
   - component: {fileID: 6464781606170324676}
-  - component: {fileID: 6464781606170324679}
+  - component: {fileID: -4358133356364970392}
   m_Layer: 0
-  m_Name: Scene Transition
+  m_Name: Turn
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -58,7 +58,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 7.444542, y: 13.64369}
   m_EdgeRadius: 0
---- !u!114 &6464781606170324679
+--- !u!114 &-4358133356364970392
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -67,10 +67,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6464781606170324674}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f1d9aa41713768e40afe9c1788a72a1e, type: 3}
+  m_Script: {fileID: 11500000, guid: adb8d5ea1e72efc479997a29033d163d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   goToAisleScene: 
-  goForwardScene: 
-  guideText: {fileID: 0}
-  guideText2: {fileID: 0}

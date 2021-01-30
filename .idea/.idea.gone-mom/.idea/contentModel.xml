@@ -7,10 +7,12 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
+          <e p="ContinueController.cs" t="Include" />
           <e p="GameController.cs" t="Include" />
           <e p="ItemController.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
           <e p="SceneTransition.cs" t="Include" />
+          <e p="TurnController.cs" t="Include" />
         </e>
       </e>
       <e p="gone-mom.sln" t="IncludeFlat" />

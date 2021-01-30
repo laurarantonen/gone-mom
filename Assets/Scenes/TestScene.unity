@@ -1165,6 +1165,11 @@ PrefabInstance:
       objectReference: {fileID: 306858100}
     - target: {fileID: 6464781606170324679, guid: c75a5797581bd2a41997d038dfeade7a,
         type: 3}
+      propertyPath: goForwardScene
+      value: TestScene3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6464781606170324679, guid: c75a5797581bd2a41997d038dfeade7a,
+        type: 3}
       propertyPath: goToAisleScene
       value: TestScene2
       objectReference: {fileID: 0}

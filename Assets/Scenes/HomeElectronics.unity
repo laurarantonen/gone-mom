@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 67285227}
   - component: {fileID: 67285228}
   m_Layer: 0
-  m_Name: GM_aisle_clothes_3 (1)
+  m_Name: 'GM_aisle_3 '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -191,7 +191,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: aa6b5a7fcea13344ca08804866d0a381, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a104068f6aed1a44aad4ef846b5bee81, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -294,7 +294,7 @@ GameObject:
   - component: {fileID: 126822165}
   - component: {fileID: 126822166}
   m_Layer: 0
-  m_Name: GM_aisle_clothes_1 (1)
+  m_Name: 'GM_aisle_1 '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -353,7 +353,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: aa6b5a7fcea13344ca08804866d0a381, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6cf7fb009496be94ab90ff2c82496934, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -375,7 +375,7 @@ GameObject:
   - component: {fileID: 189109819}
   - component: {fileID: 189109820}
   m_Layer: 0
-  m_Name: GM_aisle_clothes_1 (2)
+  m_Name: 'GM_aisle_1 '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -434,7 +434,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: ba8fcdaee1bae0849a1d83621651f0dd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fd375ae2977e67a4984190f727feb5bb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -474,7 +474,7 @@ Transform:
   m_Children:
   - {fileID: 228402185}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &228402184
 GameObject:
@@ -933,7 +933,7 @@ GameObject:
   - component: {fileID: 685962545}
   - component: {fileID: 685962546}
   m_Layer: 0
-  m_Name: GM_aisle_clothes_3 (5)
+  m_Name: GM_aisle_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -992,7 +992,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: aa6b5a7fcea13344ca08804866d0a381, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6cf7fb009496be94ab90ff2c82496934, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1014,7 +1014,7 @@ GameObject:
   - component: {fileID: 790826573}
   - component: {fileID: 790826574}
   m_Layer: 0
-  m_Name: GM_aisle_clothes_1 (3)
+  m_Name: GM_aisle_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1073,7 +1073,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 67358f118694190438cfd2455e836e0d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a104068f6aed1a44aad4ef846b5bee81, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1094,7 +1094,7 @@ GameObject:
   m_Component:
   - component: {fileID: 808631016}
   m_Layer: 0
-  m_Name: GM_aisle_toys
+  m_Name: GM_aisle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1216,7 +1216,7 @@ GameObject:
   - component: {fileID: 953669729}
   - component: {fileID: 953669730}
   m_Layer: 0
-  m_Name: GM_aisle_clothes_2 (10)
+  m_Name: 'GM_aisle_2 '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1275,7 +1275,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 67358f118694190438cfd2455e836e0d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fd375ae2977e67a4984190f727feb5bb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1297,7 +1297,7 @@ GameObject:
   - component: {fileID: 972816666}
   - component: {fileID: 972816667}
   m_Layer: 0
-  m_Name: GM_aisle_clothes_2 (9)
+  m_Name: GM_aisle_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1356,7 +1356,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: aa6b5a7fcea13344ca08804866d0a381, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a104068f6aed1a44aad4ef846b5bee81, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1378,7 +1378,7 @@ GameObject:
   - component: {fileID: 989773988}
   - component: {fileID: 989773989}
   m_Layer: 0
-  m_Name: GM_aisle_clothes_3 (3)
+  m_Name: GM_aisles_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1437,7 +1437,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: aa6b5a7fcea13344ca08804866d0a381, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fd375ae2977e67a4984190f727feb5bb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1459,7 +1459,7 @@ GameObject:
   - component: {fileID: 1037457262}
   - component: {fileID: 1037457263}
   m_Layer: 0
-  m_Name: GM_aisle_clothes_2 (2)
+  m_Name: 'GM_aisle_2 '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1518,7 +1518,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 67358f118694190438cfd2455e836e0d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fd375ae2977e67a4984190f727feb5bb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1540,7 +1540,7 @@ GameObject:
   - component: {fileID: 1064609907}
   - component: {fileID: 1064609908}
   m_Layer: 0
-  m_Name: GM_aisle_clothes_2 (3)
+  m_Name: GM_aisle_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1599,7 +1599,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 67358f118694190438cfd2455e836e0d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6cf7fb009496be94ab90ff2c82496934, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1706,7 +1706,7 @@ GameObject:
   - component: {fileID: 1105652587}
   - component: {fileID: 1105652588}
   m_Layer: 0
-  m_Name: GM_aisle_clothes_2 (11)
+  m_Name: GM_aisle_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1765,7 +1765,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 67358f118694190438cfd2455e836e0d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a104068f6aed1a44aad4ef846b5bee81, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1932,7 +1932,7 @@ GameObject:
   - component: {fileID: 1173023004}
   - component: {fileID: 1173023005}
   m_Layer: 0
-  m_Name: GM_aisle_clothes_2 (7)
+  m_Name: GM_aisle_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1991,7 +1991,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 67358f118694190438cfd2455e836e0d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a104068f6aed1a44aad4ef846b5bee81, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2013,7 +2013,7 @@ GameObject:
   - component: {fileID: 1179424149}
   - component: {fileID: 1179424150}
   m_Layer: 0
-  m_Name: GM_aisle_clothes_2 (5)
+  m_Name: GM_aisle_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2072,7 +2072,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 67358f118694190438cfd2455e836e0d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a104068f6aed1a44aad4ef846b5bee81, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2094,7 +2094,7 @@ GameObject:
   - component: {fileID: 1192621907}
   - component: {fileID: 1192621908}
   m_Layer: 0
-  m_Name: GM_aisle_clothes_3
+  m_Name: GM_aisle_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2153,7 +2153,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: ba8fcdaee1bae0849a1d83621651f0dd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fd375ae2977e67a4984190f727feb5bb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2175,7 +2175,7 @@ GameObject:
   - component: {fileID: 1210354250}
   - component: {fileID: 1210354251}
   m_Layer: 0
-  m_Name: GM_aisle_clothes_2 (4)
+  m_Name: GM_aisle_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2234,7 +2234,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 67358f118694190438cfd2455e836e0d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fd375ae2977e67a4984190f727feb5bb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2256,7 +2256,7 @@ GameObject:
   - component: {fileID: 1288090045}
   - component: {fileID: 1288090046}
   m_Layer: 0
-  m_Name: GM_aisle_clothes_3 (4)
+  m_Name: 'GM_aisle_3 '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2315,7 +2315,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: aa6b5a7fcea13344ca08804866d0a381, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6cf7fb009496be94ab90ff2c82496934, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2326,87 +2326,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1375898421
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1375898423}
-  - component: {fileID: 1375898422}
-  m_Layer: 0
-  m_Name: pickup
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!212 &1375898422
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1375898421}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: b18c3afe520eae3428541b04cd113f7f, type: 3}
-  m_Color: {r: 0.9245283, g: 0.082858644, b: 0.54867476, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1.7, y: 1.7}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &1375898423
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1375898421}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -22.75, y: -1.14, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1378435618
 GameObject:
   m_ObjectHideFlags: 0
@@ -2580,7 +2499,7 @@ GameObject:
   - component: {fileID: 1485043563}
   - component: {fileID: 1485043564}
   m_Layer: 0
-  m_Name: GM_aisle_clothes_3 (2)
+  m_Name: GM_aisle_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2639,7 +2558,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: aa6b5a7fcea13344ca08804866d0a381, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6cf7fb009496be94ab90ff2c82496934, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2661,7 +2580,7 @@ GameObject:
   - component: {fileID: 1518524436}
   - component: {fileID: 1518524437}
   m_Layer: 0
-  m_Name: GM_aisle_clothes_2
+  m_Name: GM_aisle_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2720,7 +2639,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: aa6b5a7fcea13344ca08804866d0a381, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6cf7fb009496be94ab90ff2c82496934, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2908,7 +2827,7 @@ GameObject:
   - component: {fileID: 1750150281}
   - component: {fileID: 1750150282}
   m_Layer: 0
-  m_Name: GM_aisle_clothes_1 (5)
+  m_Name: 'GM_aisle_1 '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2967,7 +2886,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: ba8fcdaee1bae0849a1d83621651f0dd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fd375ae2977e67a4984190f727feb5bb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2989,7 +2908,7 @@ GameObject:
   - component: {fileID: 1841414189}
   - component: {fileID: 1841414190}
   m_Layer: 0
-  m_Name: GM_aisle_clothes_1
+  m_Name: GM_aisle_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3003,7 +2922,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1841414188}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 3.75, z: 0}
+  m_LocalPosition: {x: 0, y: 3.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1092520423}
@@ -3048,7 +2967,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: ba8fcdaee1bae0849a1d83621651f0dd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a104068f6aed1a44aad4ef846b5bee81, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3070,7 +2989,7 @@ GameObject:
   - component: {fileID: 1908137840}
   - component: {fileID: 1908137841}
   m_Layer: 0
-  m_Name: GM_aisle_clothes_1 (4)
+  m_Name: GM_aisle_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3129,7 +3048,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: ba8fcdaee1bae0849a1d83621651f0dd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a104068f6aed1a44aad4ef846b5bee81, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3151,7 +3070,7 @@ GameObject:
   - component: {fileID: 1915037253}
   - component: {fileID: 1915037254}
   m_Layer: 0
-  m_Name: GM_aisle_clothes_2 (6)
+  m_Name: GM_aisle_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3210,7 +3129,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: aa6b5a7fcea13344ca08804866d0a381, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fd375ae2977e67a4984190f727feb5bb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3317,7 +3236,7 @@ GameObject:
   - component: {fileID: 1963813679}
   - component: {fileID: 1963813680}
   m_Layer: 0
-  m_Name: GM_aisle_clothes_2 (1)
+  m_Name: GM_aisle__4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3376,7 +3295,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 67358f118694190438cfd2455e836e0d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a104068f6aed1a44aad4ef846b5bee81, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3398,7 +3317,7 @@ GameObject:
   - component: {fileID: 2002367684}
   - component: {fileID: 2002367685}
   m_Layer: 0
-  m_Name: GM_aisle_clothes_2 (8)
+  m_Name: GM_aisle_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3457,7 +3376,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 67358f118694190438cfd2455e836e0d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6cf7fb009496be94ab90ff2c82496934, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

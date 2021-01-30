@@ -570,21 +570,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3407731407555978780, guid: dbf9bccc7cf841f4fbad530be7f8b7c5,
-        type: 3}
-      propertyPath: far clip plane
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 3407731407555978780, guid: dbf9bccc7cf841f4fbad530be7f8b7c5,
-        type: 3}
-      propertyPath: near clip plane
-      value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 3407731407555978780, guid: dbf9bccc7cf841f4fbad530be7f8b7c5,
-        type: 3}
-      propertyPath: orthographic size
-      value: 5.84
-      objectReference: {fileID: 0}
     - target: {fileID: 3407731407555978783, guid: dbf9bccc7cf841f4fbad530be7f8b7c5,
         type: 3}
       propertyPath: m_Name
@@ -598,7 +583,7 @@ PrefabInstance:
     - target: {fileID: 3407731407555978979, guid: dbf9bccc7cf841f4fbad530be7f8b7c5,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.28
+      value: -4.6
       objectReference: {fileID: 0}
     - target: {fileID: 3407731407555978979, guid: dbf9bccc7cf841f4fbad530be7f8b7c5,
         type: 3}
@@ -1153,11 +1138,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Background
       objectReference: {fileID: 0}
-    - target: {fileID: 2215332054007662411, guid: fa9708917cc5cc94c8ee4987773eaab2,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2215332054007662420, guid: fa9708917cc5cc94c8ee4987773eaab2,
         type: 3}
       propertyPath: m_RootOrder
@@ -1211,11 +1191,6 @@ PrefabInstance:
     - target: {fileID: 2215332054007662420, guid: fa9708917cc5cc94c8ee4987773eaab2,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2215332054007662421, guid: fa9708917cc5cc94c8ee4987773eaab2,
-        type: 3}
-      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -2952,7 +2927,7 @@ PrefabInstance:
     - target: {fileID: 5874317532154478264, guid: 69f8ad5f03f865f4d91672db2f47ea49,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.28
+      value: -4.6
       objectReference: {fileID: 0}
     - target: {fileID: 5874317532154478264, guid: 69f8ad5f03f865f4d91672db2f47ea49,
         type: 3}
@@ -3004,6 +2979,11 @@ PrefabInstance:
       propertyPath: m_BoundingShape2D
       value: 
       objectReference: {fileID: 40579913}
+    - target: {fileID: 5874317532154478265, guid: 69f8ad5f03f865f4d91672db2f47ea49,
+        type: 3}
+      propertyPath: m_ConfineScreenEdges
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5874317532154478278, guid: 69f8ad5f03f865f4d91672db2f47ea49,
         type: 3}
       propertyPath: m_Name
@@ -3014,11 +2994,6 @@ PrefabInstance:
       propertyPath: m_Follow
       value: 
       objectReference: {fileID: 1665359207}
-    - target: {fileID: 5874317532154478279, guid: 69f8ad5f03f865f4d91672db2f47ea49,
-        type: 3}
-      propertyPath: m_Lens.FarClipPlane
-      value: 100
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69f8ad5f03f865f4d91672db2f47ea49, type: 3}
 --- !u!1 &1092520422
@@ -4756,6 +4731,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8114759934640836945, guid: cc4ab11dad903d34b95c76f59f670573,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8114759934640836945, guid: cc4ab11dad903d34b95c76f59f670573,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1498200637
       objectReference: {fileID: 0}
     - target: {fileID: 8114759934640836947, guid: cc4ab11dad903d34b95c76f59f670573,
         type: 3}

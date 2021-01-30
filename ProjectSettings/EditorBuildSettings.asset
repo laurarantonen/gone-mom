@@ -5,15 +5,18 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Test scenes/TestScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Test scenes/TestScene2.unity
     guid: 8e1b8406aae865946b08e6ee8bfb5516
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Test scenes/TestScene3.unity
     guid: 2cd2264eb3a6b734da07061b82a228e3
+  - enabled: 0
+    path: Assets/Scenes/Test scenes/Main.unity
+    guid: d40140fc74aa88c4cbfc06dfb5af45e3
   - enabled: 1
     path: Assets/Scenes/Toys.unity
     guid: 5c9a672d5f301d4418f962a7e6d97106
@@ -32,9 +35,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/HomeElectronics.unity
     guid: 77bce3ef21764a542bad3d64240a0514
-  - enabled: 1
-    path: Assets/Scenes/Main.unity
-    guid: d40140fc74aa88c4cbfc06dfb5af45e3
   - enabled: 1
     path: Assets/Scenes/Pets.unity
     guid: c26a56cbc5f51ca4e819f66447e58e32

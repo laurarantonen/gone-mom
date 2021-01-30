@@ -36,12 +36,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Main.unity
     guid: d40140fc74aa88c4cbfc06dfb5af45e3
   - enabled: 1
-    path: Assets/Scenes/Outdoors.unity
-    guid: 23a3d18701e9fc640bb39a61591df5ca
-  - enabled: 1
     path: Assets/Scenes/Pets.unity
     guid: c26a56cbc5f51ca4e819f66447e58e32
   - enabled: 1
     path: Assets/Scenes/Sports.unity
     guid: dd5abbeb0cb493c418088651fd0fefb6
+  - enabled: 1
+    path: Assets/Scenes/Home decor.unity
+    guid: 36a38508ff3fb7440b93befe572c0a62
+  - enabled: 1
+    path: Assets/Scenes/Outdoors.unity
+    guid: 23a3d18701e9fc640bb39a61591df5ca
   m_configObjects: {}

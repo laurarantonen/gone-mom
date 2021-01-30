@@ -21,13 +21,12 @@ public class ItemController : MonoBehaviour
 
         if (gameController.getItemCount() != itemNumber)
         {
-            Debug.Log("itemcount on" + gameController.getItemCount());
             gameObject.SetActive(false);
         }
         
         if(playerNearItem && Input.GetKeyDown(KeyCode.E)){
             gameController.addItem(); // add +1 to items held
-            Debug.Log(gameController.getItemCount());
+            Debug.Log("Items held" + gameController.getItemCount());
         }
     }
     

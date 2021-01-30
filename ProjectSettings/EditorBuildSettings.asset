@@ -17,4 +17,31 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Toys.unity
     guid: 5c9a672d5f301d4418f962a7e6d97106
+  - enabled: 1
+    path: Assets/Scenes/Beauty.unity
+    guid: 492d23486b3657d4da0d6faeba50a6c8
+  - enabled: 1
+    path: Assets/Scenes/Books.unity
+    guid: e338aeacdb84e5b46bb44e6c0e3c2d94
+  - enabled: 1
+    path: Assets/Scenes/Clothes.unity
+    guid: 7e5625a848ed08f4bad82f87eec099c3
+  - enabled: 1
+    path: Assets/Scenes/Hardware.unity
+    guid: 2325758453e969545b8fbce0f2b63515
+  - enabled: 1
+    path: Assets/Scenes/HomeElectronics.unity
+    guid: 77bce3ef21764a542bad3d64240a0514
+  - enabled: 1
+    path: Assets/Scenes/Main.unity
+    guid: d40140fc74aa88c4cbfc06dfb5af45e3
+  - enabled: 1
+    path: Assets/Scenes/Outdoors.unity
+    guid: 23a3d18701e9fc640bb39a61591df5ca
+  - enabled: 1
+    path: Assets/Scenes/Pets.unity
+    guid: c26a56cbc5f51ca4e819f66447e58e32
+  - enabled: 1
+    path: Assets/Scenes/Sports.unity
+    guid: dd5abbeb0cb493c418088651fd0fefb6
   m_configObjects: {}

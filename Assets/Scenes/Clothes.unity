@@ -217,7 +217,7 @@ PrefabInstance:
     - target: {fileID: 5874317532154478264, guid: 69f8ad5f03f865f4d91672db2f47ea49,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.28
+      value: -6.2800007
       objectReference: {fileID: 0}
     - target: {fileID: 5874317532154478264, guid: 69f8ad5f03f865f4d91672db2f47ea49,
         type: 3}
@@ -356,7 +356,7 @@ SpriteRenderer:
   m_SortingLayerID: -213098297
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 16b5106cdb557bd4f8ec4d04a94c201d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4fef0abe960bc744cb55f5d6f7c8e4be, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2650,7 +2650,7 @@ SpriteRenderer:
   m_SortingLayerID: -213098297
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 48e0d5f46464f9041964a46cbc159147, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4fef0abe960bc744cb55f5d6f7c8e4be, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2731,7 +2731,7 @@ SpriteRenderer:
   m_SortingLayerID: -213098297
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 2e097c264a5758d4fbbb30a057deee7d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4fef0abe960bc744cb55f5d6f7c8e4be, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3217,7 +3217,7 @@ SpriteRenderer:
   m_SortingLayerID: -213098297
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 2e097c264a5758d4fbbb30a057deee7d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4fef0abe960bc744cb55f5d6f7c8e4be, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3903,7 +3903,7 @@ PrefabInstance:
     - target: {fileID: 3407731407555978979, guid: dbf9bccc7cf841f4fbad530be7f8b7c5,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.28
+      value: -6.2800007
       objectReference: {fileID: 0}
     - target: {fileID: 3407731407555978979, guid: dbf9bccc7cf841f4fbad530be7f8b7c5,
         type: 3}

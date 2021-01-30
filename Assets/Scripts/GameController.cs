@@ -2,9 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerStatus : MonoBehaviour
+public class GameController : MonoBehaviour
 {
     private int itemsHeld = 0;
+    
+    public void Awake() 
+    { 
+        DontDestroyOnLoad(gameObject); 
+    }
 
     public int getItemCount()
     {

@@ -7,20 +7,27 @@ public class ItemController : MonoBehaviour
 {
     private bool playerNearItem;
     public GameObject interactText;
-    private PlayerStatus playerStatus;
+    private GameController gameController;
     public int itemNumber;
 
     public void Start()
     {
-        playerStatus = FindObjectOfType<PlayerStatus>();
-
+        gameController = FindObjectOfType<GameController>();
+        Debug.Log("item created");
     }
 
     public void Update()
     {
+
+        if (gameController.getItemCount() != itemNumber)
+        {
+            Debug.Log("itemcount on" + gameController.getItemCount());
+            gameObject.SetActive(false);
+        }
+        
         if(playerNearItem && Input.GetKeyDown(KeyCode.E)){
-            playerStatus.addItem(); // add +1 to items held
-            Debug.Log(playerStatus.getItemCount());
+            gameController.addItem(); // add +1 to items held
+            Debug.Log(gameController.getItemCount());
         }
     }
     

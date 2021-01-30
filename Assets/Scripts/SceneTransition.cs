@@ -12,6 +12,7 @@ public class SceneTransition : MonoBehaviour
     private bool playerInsideTrigger;
     public GameObject guideText;
     public GameObject guideText2;
+    
     public void Update()
     {
         if(playerInsideTrigger && Input.GetKeyDown(KeyCode.W)){
@@ -35,12 +36,12 @@ public class SceneTransition : MonoBehaviour
             guideText.SetActive(true);
             guideText2.SetActive(true);
         }
+    }
 
-        else
-        {
-            playerInsideTrigger = false;
-            guideText.SetActive(false);
-            guideText2.SetActive(false);
-        }
+    public void OnTriggerExit2D(Collider2D other)
+    {
+        playerInsideTrigger = false;
+        guideText.SetActive(false);
+        guideText2.SetActive(false);
     }
 }

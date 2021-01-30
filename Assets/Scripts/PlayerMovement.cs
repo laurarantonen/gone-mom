@@ -5,16 +5,16 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-
+    public bool canMove;
     public float moveSpeed;
     private Rigidbody2D rb;
-    private bool facingRight = true;
     private float moveDirection;
 
     // Called after all objects are initialized.
-    private void Awake()
+    void Start()
     {
         rb = GetComponent<Rigidbody2D>(); // Get Rigidbody2D component
+        canMove = true;
     }
     
 

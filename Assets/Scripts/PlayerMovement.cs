@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -9,6 +10,11 @@ public class PlayerMovement : MonoBehaviour
     public float moveSpeed;
     private Rigidbody2D rb;
     private float moveDirection;
+   
+    public void Awake() 
+    { 
+        DontDestroyOnLoad(gameObject); 
+    }
 
     // Called after all objects are initialized.
     void Start()

@@ -8,12 +8,33 @@ public class SceneTransition : MonoBehaviour
 {
 
     public string sceneToLoad;
+    public bool playerInsideTrigger;
+    public GameObject guideText;
+    public GameObject guideText2;
+    public void Update()
+    {
+        if(playerInsideTrigger && Input.GetKeyDown(KeyCode.W)){
+            SceneManager.LoadScene(sceneToLoad);;
+        }
+    }
+
+    public bool GetPlayerPosition()
+    {
+        return playerInsideTrigger;
+    }
 
     public void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player") && !other.isTrigger)
         {
-            SceneManager.LoadScene(sceneToLoad);
+            playerInsideTrigger = true;
+            guideText.SetActive(true);
+            guideText2.SetActive(true);
+        }
+
+        else
+        {
+            playerInsideTrigger = false;
         }
     }
 }

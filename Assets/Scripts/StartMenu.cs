@@ -10,7 +10,7 @@ public class StartMenu : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            SceneManager.LoadScene("Toys");
+            SceneManager.LoadScene("OpeningScene");
         }
 
         if (Input.GetKeyDown(KeyCode.Escape))

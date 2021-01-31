@@ -12,6 +12,7 @@
           <e p="ItemController.cs" t="Include" />
           <e p="MusicPlayer.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
+          <e p="SceneChanger.cs" t="Include" />
           <e p="SceneFader.cs" t="Include" />
           <e p="SceneTransition.cs" t="Include" />
           <e p="StartMenu.cs" t="Include" />

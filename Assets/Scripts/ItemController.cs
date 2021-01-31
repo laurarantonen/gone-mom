@@ -9,10 +9,12 @@ public class ItemController : MonoBehaviour
     public GameObject interactText;
     private GameController gameController;
     public int itemNumber;
+    public AudioSource keyJingle;
 
     public void Start()
     {
         gameController = FindObjectOfType<GameController>();
+        keyJingle = GetComponent<AudioSource>();
         Debug.Log("item created");
     }
 
@@ -25,8 +27,9 @@ public class ItemController : MonoBehaviour
         }
         
         if(playerNearItem && Input.GetKeyDown(KeyCode.E)){
+            keyJingle.Play();
             gameController.addItem(); // add +1 to items held
-            Debug.Log("Items held" + gameController.getItemCount());
+            Debug.Log("Item picked up, items held" + gameController.getItemCount());
         }
     }
     

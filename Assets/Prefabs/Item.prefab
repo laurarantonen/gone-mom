@@ -124,6 +124,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactText: {fileID: 0}
   itemNumber: 0
+  keyJingle: {fileID: 2679930731023229439}
 --- !u!82 &2679930731023229439
 AudioSource:
   m_ObjectHideFlags: 0

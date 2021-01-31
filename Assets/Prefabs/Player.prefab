@@ -168,7 +168,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37541cf600be44f468df759e581a27ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  runningSound: {fileID: 0}
+  runningSound: {fileID: 184711896346670313}
   canMove: 0
   moveSpeed: 5
 --- !u!82 &184711896346670313

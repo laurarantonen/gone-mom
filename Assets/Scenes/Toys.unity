@@ -1292,6 +1292,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 1762754684657527524, guid: 33687da52cb887945a77b01544d43299,
+        type: 3}
+      propertyPath: runningSound
+      value: 
+      objectReference: {fileID: 762691906}
     - target: {fileID: 1762754684657527527, guid: 33687da52cb887945a77b01544d43299,
         type: 3}
       propertyPath: m_RootOrder
@@ -2352,6 +2357,12 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!82 &762691906 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 184711896346670313, guid: 33687da52cb887945a77b01544d43299,
+    type: 3}
+  m_PrefabInstance: {fileID: 315599359}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &808631015
 GameObject:
   m_ObjectHideFlags: 0

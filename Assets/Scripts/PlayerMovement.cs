@@ -40,6 +40,28 @@ public class PlayerMovement : MonoBehaviour
             FlipCharacter();
         }
         
+        // Running sounds test
+        
+        if(!runningSound.isPlaying && Input.GetKeyDown(KeyCode.A)){
+            runningSound.Play();
+            Debug.Log("A pressed");
+        }
+        
+        if (Input.GetKeyUp(KeyCode.A))
+        {
+            runningSound.Stop();
+        }
+        
+        if(!runningSound.isPlaying && Input.GetKeyDown(KeyCode.D)){
+            runningSound.Play();
+            Debug.Log("D pressed");
+        }
+        
+        if (Input.GetKeyUp(KeyCode.D))
+        {
+            runningSound.Stop();
+        }
+        
         
         // Moves the player
         rb.velocity = new Vector2(moveDirection * moveSpeed, rb.velocity.y);

@@ -20,6 +20,11 @@ public class ItemController : MonoBehaviour
 
     public void Update()
     {
+        
+        if(Input.GetKeyDown(KeyCode.E)){
+            keyJingle.Play();
+            Debug.Log("J pressed");
+        }
 
         if (gameController.getItemCount() != itemNumber)
         {

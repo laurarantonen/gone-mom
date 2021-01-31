@@ -6,7 +6,6 @@ using UnityEngine;
 public class ItemController : MonoBehaviour
 {
     private bool playerNearItem;
-    //public GameObject interactText;
     private GameController gameController;
     public int itemNumber;
     public AudioSource keyJingle;
@@ -38,7 +37,6 @@ public class ItemController : MonoBehaviour
         if (other.CompareTag("Player") && !other.isTrigger)
         {
             playerNearItem = true; //if player is near an interactable item
-            //interactText.SetActive(true); // prompt player with text
         }
     }
 
@@ -47,7 +45,6 @@ public class ItemController : MonoBehaviour
         if (other.CompareTag("Player") && !other.isTrigger)
         {
             playerNearItem = false; //if player is near an interactable item
-            //interactText.SetActive(false); // prompt player with text
         }
     }
 }

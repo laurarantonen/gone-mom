@@ -50,4 +50,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Outdoors.unity
     guid: 23a3d18701e9fc640bb39a61591df5ca
+  - enabled: 1
+    path: Assets/Scenes/Mom.unity
+    guid: caf430f614e010f4ca75660486304de2
   m_configObjects: {}

@@ -10,9 +10,11 @@ public class ContinueController : MonoBehaviour
     public AudioSource audiosource;
     private bool playerInsideTrigger;
     private SceneFader sceneFader;
+    private GameController gameController;
 
     public void Start()
     {
+        gameController = FindObjectOfType<GameController>();
         sceneFader = FindObjectOfType<SceneFader>();
     }
     public void Update()
@@ -27,7 +29,14 @@ public class ContinueController : MonoBehaviour
     
     void GoToScene()
     {
-        SceneManager.LoadScene(goToAisleScene);
+        if (gameController.getItemCount() == 5)
+        {
+            SceneManager.LoadScene("Mom");
+        }
+        else
+        {
+            SceneManager.LoadScene(goToAisleScene);
+        }
     }
 
     public bool GetPlayerPosition()

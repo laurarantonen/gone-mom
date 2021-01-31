@@ -20,11 +20,6 @@ public class ItemController : MonoBehaviour
 
     public void Update()
     {
-        
-        if(Input.GetKeyDown(KeyCode.E)){
-            keyJingle.Play();
-            Debug.Log("J pressed");
-        }
 
         if (gameController.getItemCount() != itemNumber)
         {
@@ -32,7 +27,7 @@ public class ItemController : MonoBehaviour
         }
         
         if(playerNearItem && Input.GetKeyDown(KeyCode.E)){
-            keyJingle.Play();
+            //keyJingle.Play();
             gameController.addItem(); // add +1 to items held
             Debug.Log("Item picked up, items held" + gameController.getItemCount());
         }

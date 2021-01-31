@@ -9,16 +9,17 @@ public class MusicPlayer : MonoBehaviour
     {
         DontDestroyOnLoad(transform.gameObject);
         audioSource = GetComponent<AudioSource>();
+        //PlayMusic();
     }
  
-    public void PlayMusic()
+   public void PlayMusic()
     {
         if (audioSource.isPlaying) return;
         audioSource.Play();
     }
  
-    public void StopMusic()
+    /*public void StopMusic()
     {
         audioSource.Stop();
-    }
+    }*/
 }

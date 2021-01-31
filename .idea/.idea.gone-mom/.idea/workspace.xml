@@ -22,11 +22,11 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/GameController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SceneFader.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ContinueController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SceneTransition.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ItemController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TurnController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ContinueController.cs" />
       </list>
     </option>
   </component>
@@ -78,7 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1611994537707</updated>
       <workItem from="1611994548878" duration="308000" />
-      <workItem from="1612087353082" duration="4990000" />
+      <workItem from="1612087353082" duration="5383000" />
     </task>
     <servers />
   </component>

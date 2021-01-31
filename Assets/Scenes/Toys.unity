@@ -3315,6 +3315,11 @@ PrefabInstance:
       propertyPath: goToAisleScene
       value: Beauty
       objectReference: {fileID: 0}
+    - target: {fileID: 930788655069143672, guid: c75a5797581bd2a41997d038dfeade7a,
+        type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6464781606170324674, guid: c75a5797581bd2a41997d038dfeade7a,
         type: 3}
       propertyPath: m_Name

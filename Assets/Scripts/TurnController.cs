@@ -7,6 +7,7 @@ public class TurnController : MonoBehaviour
 {
 
     public string goToAisleScene;
+    public AudioSource audiosource;
     private bool playerInsideTrigger;
     private SceneFader sceneFader;
 
@@ -16,8 +17,10 @@ public class TurnController : MonoBehaviour
     }
     public void Update()
     {
+        audiosource = GetComponent<AudioSource>();
         if(playerInsideTrigger && Input.GetKeyDown(KeyCode.W)){
             sceneFader.FadeToLevel();
+            audiosource.Play();
             Invoke("GoToScene", 3f);
         }
     }

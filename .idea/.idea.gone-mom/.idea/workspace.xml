@@ -17,6 +17,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ItemController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TurnController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MusicPlayer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/StartMenu.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -29,6 +30,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ContinueController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MusicPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ItemController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StartMenu.cs" />
       </list>
     </option>
   </component>
@@ -80,7 +82,7 @@
       <option name="presentableId" value="Default" />
       <updated>1611994537707</updated>
       <workItem from="1611994548878" duration="308000" />
-      <workItem from="1612087353082" duration="6614000" />
+      <workItem from="1612087353082" duration="7212000" />
     </task>
     <servers />
   </component>

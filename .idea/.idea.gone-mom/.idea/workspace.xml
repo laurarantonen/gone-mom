@@ -31,8 +31,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ItemController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TurnController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ContinueController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SceneChanger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StartMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SceneChanger.cs" />
       </list>
     </option>
   </component>
@@ -84,7 +84,7 @@
       <option name="presentableId" value="Default" />
       <updated>1611994537707</updated>
       <workItem from="1611994548878" duration="308000" />
-      <workItem from="1612087353082" duration="9336000" />
+      <workItem from="1612087353082" duration="9657000" />
     </task>
     <servers />
   </component>

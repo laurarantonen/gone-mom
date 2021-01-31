@@ -11,7 +11,7 @@ public class SceneTransition : MonoBehaviour
     public void Update()
     {
         if(Input.GetKeyDown(KeyCode.Space)){
-            SceneManager.LoadScene("Toys");
+            SceneManager.LoadScene("OpeningScene");
         }
 
     }

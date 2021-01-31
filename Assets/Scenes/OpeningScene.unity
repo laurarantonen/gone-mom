@@ -527,6 +527,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SceneChanger
       objectReference: {fileID: 0}
+    - target: {fileID: 5053042473440523969, guid: dad522c8693a4834ea14b67156c08a72,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5053042473440523971, guid: dad522c8693a4834ea14b67156c08a72,
         type: 3}
       propertyPath: m_RootOrder
@@ -535,17 +540,17 @@ PrefabInstance:
     - target: {fileID: 5053042473440523971, guid: dad522c8693a4834ea14b67156c08a72,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1050.6278
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5053042473440523971, guid: dad522c8693a4834ea14b67156c08a72,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 754.0047
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5053042473440523971, guid: dad522c8693a4834ea14b67156c08a72,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -251.22835
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5053042473440523971, guid: dad522c8693a4834ea14b67156c08a72,
         type: 3}

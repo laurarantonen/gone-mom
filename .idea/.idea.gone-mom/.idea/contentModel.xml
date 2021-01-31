@@ -8,6 +8,7 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="ContinueController.cs" t="Include" />
+          <e p="EndTrigger.cs" t="Include" />
           <e p="GameController.cs" t="Include" />
           <e p="ItemController.cs" t="Include" />
           <e p="MusicPlayer.cs" t="Include" />

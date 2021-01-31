@@ -6,6 +6,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public AudioSource runningSound;
     public bool canMove;
     public float moveSpeed;
     private Rigidbody2D rb;
@@ -19,6 +20,7 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>(); // Get Rigidbody2D component
         anim = GetComponent<Animator>();
+        runningSound = GetComponent<AudioSource>();
         canMove = true;
     }
     
@@ -46,6 +48,9 @@ public class PlayerMovement : MonoBehaviour
     private void Process()
     {
         moveDirection = Input.GetAxis("Horizontal");
+        Debug.Log(runningSound);
+        // runningSound.Play();
+        
         if (moveDirection == 0)
         {
             anim.SetBool("isRunning", false);
@@ -53,6 +58,7 @@ public class PlayerMovement : MonoBehaviour
         else
         {
             anim.SetBool("isRunning", true);
+
         }
     }
     

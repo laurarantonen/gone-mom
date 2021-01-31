@@ -12,6 +12,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SceneTransition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SceneFader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ContinueController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ItemController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TurnController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -21,10 +22,11 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SceneTransition.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TurnController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ContinueController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ItemController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SceneFader.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TurnController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ContinueController.cs" />
       </list>
     </option>
   </component>
@@ -78,5 +80,11 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1225" y="526" width="672" height="678" key="search.everywhere.popup" timestamp="1612049310547">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1225" y="526" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1612049310547" />
   </component>
 </project>

@@ -26,7 +26,7 @@ public class GameController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.G))
         {
-            Debug.Log("itemcount on" + itemsHeld);
+            Debug.Log("itemcount is" + itemsHeld);
         }
     }
 }

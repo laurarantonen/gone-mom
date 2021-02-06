@@ -3,15 +3,19 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using UnityEngine;
+using Random = System.Random;
 
 public class PlayerMovement : MonoBehaviour
 {
     public AudioSource runningSound;
+    public AudioSource playerSound1;
+    public AudioSource playerSound2;
     public bool canMove;
     public float moveSpeed;
     private Rigidbody2D rb;
     private bool facingRight = true;
     private float moveDirection;
+    private int random;
 
     private Animator anim;
 
@@ -22,6 +26,23 @@ public class PlayerMovement : MonoBehaviour
         anim = GetComponent<Animator>();
         runningSound = GetComponent<AudioSource>();
         canMove = true;
+
+        PlaySounds();
+    }
+
+    public void PlaySounds()
+    {
+        random = UnityEngine.Random.Range(1, 5);
+        Debug.Log(random);
+        if (random <= 3f)
+        {
+            playerSound1.Play();
+        }
+
+        else
+        {
+            playerSound2.Play();
+        }
     }
     
 

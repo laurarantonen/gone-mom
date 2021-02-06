@@ -6,13 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class StartMenu : MonoBehaviour
 {
-    private SceneFader sceneFader;
-    private void Start()
-    {
-        sceneFader = FindObjectOfType<SceneFader>();
-    }
 
-   private void Update()
+    private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
@@ -24,10 +19,6 @@ public class StartMenu : MonoBehaviour
             Application.Quit();
         }
     }
-
-   void GoToNext()
-   {
-       sceneFader.FadeToLevel();
-   }
+   
 }
 

@@ -3,7 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using Random = System.Random;
+
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -32,6 +34,11 @@ public class PlayerMovement : MonoBehaviour
 
     public void PlaySounds()
     {
+        if (SceneManager.GetActiveScene().name == "Toys")
+        {
+            return;
+        }
+        
         random = UnityEngine.Random.Range(1, 5);
         Debug.Log(random);
         if (random <= 3f)

@@ -6,10 +6,14 @@ using UnityEngine.SceneManagement;
 public class EndTrigger : MonoBehaviour
 {
     private SceneFader sceneFader;
+    private MusicPlayer musicPlayer;
+    private ItemListUI itemListUI;
 
     public void Start()
     {
         sceneFader = FindObjectOfType<SceneFader>();
+        itemListUI = FindObjectOfType<ItemListUI>();
+        musicPlayer = FindObjectOfType<MusicPlayer>();
     }
 
     public void OnTriggerEnter2D(Collider2D other)
@@ -24,6 +28,8 @@ public class EndTrigger : MonoBehaviour
     
     void GoToScene()
     {
+        itemListUI.DestroyList();
+        musicPlayer.DestroyMusicPlayer();
         SceneManager.LoadScene("EndingScene");
     }
     

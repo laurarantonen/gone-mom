@@ -17,6 +17,11 @@ public class MusicPlayer : MonoBehaviour
         if (audioSource.isPlaying) return;
         audioSource.Play();
     }
+
+   public void DestroyMusicPlayer()
+   {
+       Destroy(gameObject);
+   }
  
     /*public void StopMusic()
     {

@@ -7,10 +7,12 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
+          <e p="CanvasController.cs" t="Include" />
           <e p="ContinueController.cs" t="Include" />
           <e p="EndTrigger.cs" t="Include" />
           <e p="GameController.cs" t="Include" />
           <e p="ItemController.cs" t="Include" />
+          <e p="ItemListUI.cs" t="Include" />
           <e p="MusicPlayer.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
           <e p="SceneChanger.cs" t="Include" />

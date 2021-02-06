@@ -27,14 +27,16 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/GameController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SceneFader.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MusicPlayer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ItemController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TurnController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ContinueController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StartMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SceneChanger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SceneTransition.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TurnController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ItemController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ItemListUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MusicPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EndTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CanvasController.cs" />
       </list>
     </option>
   </component>
@@ -87,6 +89,7 @@
       <updated>1611994537707</updated>
       <workItem from="1611994548878" duration="308000" />
       <workItem from="1612087353082" duration="10706000" />
+      <workItem from="1612634748235" duration="5987000" />
     </task>
     <servers />
   </component>

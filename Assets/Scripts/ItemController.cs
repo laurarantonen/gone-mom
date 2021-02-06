@@ -7,13 +7,13 @@ public class ItemController : MonoBehaviour
 {
     private bool playerNearItem;
     private GameController gameController;
+    private ItemListUI itemListUI;
     public int itemNumber;
-    public AudioSource keyJingle;
 
     public void Start()
     {
         gameController = FindObjectOfType<GameController>();
-        keyJingle = GetComponent<AudioSource>();
+        itemListUI = FindObjectOfType<ItemListUI>();
         Debug.Log("item created");
     }
 
@@ -26,8 +26,8 @@ public class ItemController : MonoBehaviour
         }
         
         if(playerNearItem && Input.GetKeyDown(KeyCode.E)){
-            //keyJingle.Play();
             gameController.addItem(); // add +1 to items held
+            itemListUI.CrossItem(gameController.getItemCount());
             Debug.Log("Item picked up, items held" + gameController.getItemCount());
         }
     }
